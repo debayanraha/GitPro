@@ -1,0 +1,1000 @@
+  144  git clone https://github.com/debayanraha/Deb-TestRepo.git
+  145  ls
+  146  cd Deb-TestRepo
+  147  ls
+  148  git status
+  149  ls
+  150  nano README.md
+  151  git status
+  152  git add .
+  153  git status
+  154  git commit
+  155  git status
+  156  git push
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd Deb-TestRepo
+  162  ls
+  163  nano README.md
+  164  git status
+  165  git add .
+  166  git commit
+  167  git status
+  168  git push
+  169  git status
+  170  git pull
+  171  git pull origin master
+  172  git status
+  173  nano README.md
+  174  cat README.md
+  175  git status
+  176  git add
+  177  git add .
+  178  git status
+  179  cat README.md
+  180  git commit
+  181  git status
+  182  git pull origin master
+  183  git push origin master
+  184  git status
+  185  nano README.md
+  186  git status
+  187  git commit
+  188  git add .
+  189  git commit
+  190  git push origin master
+  191  git status
+  192  history
+  193  cd ..
+  194  ls
+  195  cd second
+  196  ls
+  197  cd Deb-TestRepo
+  198  ls
+  199  git status
+  200  nano README.md
+  201  git status
+  202  git add .
+  203  git commit
+  204  git status
+  205  git push
+  206  git pull
+  207  nano README.md
+  208  git status
+  209  git push
+  210  git status
+  211  cd ..
+  212  cd Deb-testRepo
+  213  cd Deb-TestRepo
+  214  git status
+  215  nano README.md
+  216  git status
+  217  git add .
+  218  git commit
+  219  git push
+  220  git pull
+  221  nano README.md
+  222  git status
+  223  nano README.md
+  224  git status
+  225  git commit
+  226  git add .
+  227  git status
+  228  git commit
+  229  git status
+  230  git pull origin master
+  231  git push origin master
+  232  git status
+  233  cd ..
+  234  ls
+  235  cd delrepo
+  236  ls
+  237  nano newf
+  238  git status
+  239  git remote --help
+  240  git remote add deborigin https://github.com/debayanraha/Deb-NewRepo.git
+  241  git status
+  242  git remote --help
+  243  git push
+  244  git remote add debref https://github.com/debayanraha/Deb-NewRepo.git
+  245  git remote
+  246  git remote --help
+  247  git remote -v
+  248  git push deborigin
+  249  git push deborigin master
+  250  git remote --help
+  251  git remote -v
+  252  exit
+  253  git status
+  254  cat nano.save
+  255  rm *.save
+  256  git status
+  257  nano new1.txt
+  258  git status
+  259  git add .
+  260  git status
+  261  git checkout --help
+  262  git reset --help
+  263  nano new1.txt
+  264  git status
+  265  git checkout
+  266  git status
+  267  nano new1.txt
+  268  git checkout
+  269  git checkout new1.txt
+  270  git status
+  271  nano new1.txt
+  272  git status
+  273  git checkout *
+  274  git checkout .
+  275  git reset .
+  276  git status
+  277  nano new1.txt
+  278  git reset --help
+  279  git add .
+  280  git status
+  281  git reset HEAD 
+  282  git status
+  283  git reset HEAD .
+  284  git status
+  285  nano new1.txt
+  286  git checkout -- new1.txt
+  287  git status
+  288  nano new1.txt
+  289  git checkout -- 
+  290  git checkout -- new1.txt
+  291  git checkout -- .
+  292  git 
+  293  git mv new1.txt newfile.txt
+  294  git status
+  295  git add .
+  296  git status
+  297  git commit
+  298  git status
+  299  ls
+  300  mv newfile.txt newfile
+  301  ls
+  302  git status
+  303  git add .
+  304  git status
+  305  git reset .
+  306  git status
+  307  git checkout .
+  308  git status
+  309  ls
+  310  git checkout .
+  311  git status
+  312  rm newfile
+  313  git status
+  314  ls
+  315  nano delfile
+  316  git status
+  317  git add .
+  318  git status
+  319  gir rm delfile
+  320  git rm delfile
+  321  git status
+  322  git rm delfile
+  323  git rm -f delfile
+  324  git status
+  325  ls
+  326  nano delfile
+  327  ls
+  328  git add .
+  329  git status
+  330  git checkout .
+  331  git status
+  332  git reset .
+  333  git status
+  334  git add .
+  335  git status
+  336  git commit
+  337  git status
+  338  ls
+  339  git rm delfile
+  340  git status
+  341  ls
+  342  git commit
+  343  git status
+  344  git log
+  345  git log -- newfile.txt
+  346  git log -- new1.txt
+  347  git log -- follow newfile.txt
+  348  git log -- follow new1.txt
+  349  git log --follow -- newfile.txt
+  350  git log --follow -- new1.txt
+  351  git show ae82eebe8eeeddb1db2ad473ca46618808399e54
+  352  git log --stat
+  353  git log --oneline​
+  354  git log -- oneline​
+  355  git log 
+  356  git log -- oneline
+  357  git log --oneline
+  358  git config --global
+  359  git config --global alias
+  360  git config --global alias.debshort "git log --oneline"
+  361  git config --global alias
+  362  git debshort
+  363  git config --global alias.*
+  364  git config --global alias.debshort
+  365  nano ~/.gitconfig
+  366  git config --global alias.debshort
+  367  git config --global alias.debshort rm
+  368  git config --global alias.debshort
+  369  git config --global alias.debshort "git log --oneline"
+  370  git config --global alias.debshort
+  371  nano ~/.gitconfig
+  372  git debstat
+  373  git config --global alias.debstat
+  374  debstat
+  375  git -- debstat
+  376  git debstst
+  377  git debstat
+  378  nano ~/.gitconfig
+  379  git debstat
+  380  git config --global alias.deblog "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+  381  git deblog
+  382  # nano ~/.gitconfig
+  383  git config --global user.name "Debayan Raha"
+  384  git config --global user.email "debayan.raha@gmail.com"
+  385  git config --global user.email 
+  386  git config --global alias.deblog "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+  387  # nano ~/.gitconfig
+  388  git deblog
+  389  cd /opt
+  390  cd deb
+  391  cd testproj
+  392  cd Deb-Testrepo
+  393  cd Deb-TestRepo
+  394  ls
+  395  git deblog
+  396  # nano ~/.gitconfig
+  397  nano ~/.gitconfig
+  398  nano .gitignore
+  399  git status
+  400  git add .
+  401  git commit
+  402  git status
+  403  nano shandeb
+  404  LS
+  405  ls
+  406  git status
+  407  nanlo his.log
+  408  nano his.log
+  409  git status
+  410  nano .gitignore
+  411  git status
+  412  ls
+  413  rm his.log
+  414  git status
+  415  git add .
+  416  git commit
+  417  git status
+  418  ls
+  419  mkdir log
+  420  ls
+  421  cd log
+  422  nano all.log
+  423  nano xyz.txt
+  424  git status
+  425  git pull
+  426  git remote
+  427  git push origin master
+  428  git status
+  429  git diff
+  430  git diff --help
+  431  git deblog
+  432  git diff ee65665 ba345ca
+  433  git config --global --list
+  434  exit
+  435  cd /opt/deb/testproj/Deb-TestRepo
+  436  ls
+  437  git status
+  438  git log
+  439  git log --graph
+  440  git log --decorate
+  441  git log 
+  442  git log --decorate
+  443  git log --oneline --graph --decorate
+  444  git deblog
+  445  git log --oneline --graph --decorateclear
+  446  clear
+  447  git status
+  448  ls
+  449  nano newfile.txt
+  450  git commit
+  451  git commit -a
+  452  git status
+  453  CLEAR
+  454  clear
+  455  git status
+  456  git branch
+  457  git branch -a
+  458  git branch debbra1
+  459  git branch -a
+  460  git checkout debbra1
+  461  git branch -a
+  462  git branch debbra2
+  463  git branch -a
+  464  git deblog
+  465  git checkout master
+  466  git deblog
+  467  git log --oneline
+  468  clear
+  469  git branch -a
+  470  git checkout debbra2
+  471  git branch -a
+  472  ls
+  473  nano shandeb
+  474  nano brafile
+  475  git commit -a 
+  476  git commit -a .
+  477  git commit -a brafile
+  478  git commit -a 
+  479  git status]
+  480  git status
+  481  git add
+  482  git add .
+  483  git commit
+  484  git status
+  485  ls
+  486  git checkout master
+  487  ls
+  488  git deblog
+  489  git status
+  490  git log
+  491  git branch
+  492  history
+  493  git branch
+  494  git branch master debbra1
+  495  git diff master debbra1
+  496  git diff master debbra2
+  497  git diff debbra1 debbra2
+  498  git difftool debbra1 debbra2
+  499  git branch
+  500  git merge
+  501  git merge debbra2
+  502  git diff master debbra2
+  503  git diff master debbra1
+  504  git diff debbra1 debbra2
+  505  git diff master debbra2
+  506  git diff debbra1 debbra2
+  507  git status
+  508  git merge debbra1 debbra2
+  509  git diff debbra1 debbra2
+  510  git merge debbra1 
+  511  git merge debbra2 
+  512  git merge debbra1 debbra2
+  513  git checkout debbra1
+  514  git merge debbra2
+  515  git merge debbra1 
+  516  git diff debbra1 debbra2
+  517  git status
+  518  git debstat
+  519  git deblog
+  520  git branch
+  521  exit
+  522  cd /opt/deb/testproj/Deb-TestRepo
+  523  git status
+  524  nano .gitignore
+  525  git commit -a .gitignore
+  526  git status
+  527  git commit -a
+  528  git status
+  529  clear
+  530  git branch
+  531  git diff 
+  532  git diff debbra1 debbra2
+  533  git diff debbra1 master
+  534  git status
+  535  git remote
+  536  git remote -v
+  537  git branch
+  538  ls
+  539  git push 
+  540  git push origin master
+  541  ls
+  542  nano newf
+  543  git commit -a
+  544  git commit -am "dsd"
+  545  git status
+  546  git add .
+  547  git commit "sds"
+  548  git commit -m "sds"
+  549  git status
+  550  git push origin master
+  551  git push origin debbra1
+  552  git remote
+  553  git remote -v
+  554  git checkout debbra2
+  555  ls
+  556  nano bratest
+  557  git commit -a
+  558  git add 
+  559  git commit -m " D"
+  560  git STATUS
+  561  git status
+  562  git checkout master
+  563  git push origin debbra2
+  564  git diff
+  565  git status
+  566  git branch
+  567  git diff master debbra1
+  568  git merge debbra1
+  569  git diff master debbra1
+  570  git diff master debbra2
+  571  git merge debbra2
+  572  git diff master debbra2
+  573  git merge debbra2
+  574  git diff master debbra2
+  575  git checkout debb
+  576  git diff master debbra2
+  577  git merge master
+  578  git diff master debbra2
+  579  git diff debbra1 debbra2
+  580  git merge debbra1
+  581  girt checkout debbra1
+  582  git checkout debbra1
+  583  git merge debbra2
+  584  git diff debbra1 debbra2
+  585  git checkout master
+  586  git diff debbra1 debbra2
+  587  git diff debbra2 debbra1
+  588  git diff master debbra2
+  589  git diff master debbra1
+  590  ls
+  591  git push .
+  592  git push origin master
+  593  git branch
+  594  cd ..
+  595  ls
+  596  cd Deb-TestRepo
+  597  ls
+  598  git branch
+  599  ls
+  600  git branch debbra3
+  601  git branch 
+  602  git checkout debbra3
+  603  ls
+  604  nano bnratest
+  605  git commit -a .
+  606  git commit -am
+  607  git status
+  608  ls
+  609  rm bnratest
+  610  ls
+  611  git status
+  612  nano bratest
+  613  git commit -am "asdasd"
+  614  git status
+  615  git checkout master
+  616  git merge debbra3
+  617  git diff master debbra3
+  618  git branch
+  619  git branch debbra4
+  620  git checkout debbra4
+  621  nano debbra
+  622  ls
+  623  nano brtatest
+  624  nano bratest
+  625  git checkout master
+  626  ls
+  627  nano bratest
+  628  git diff master debbra4
+  629  git branch
+  630  git checkout debbra4
+  631  ls
+  632  nano bratest
+  633  git status
+  634  git commit -am "sad"
+  635  git status
+  636  git checkout master
+  637  git status
+  638  nano bratest
+  639  git diff master debbra4
+  640  git branch
+  641  ls
+  642  nano bratest
+  643  git status
+  644  git commit -am "sad"
+  645  git status
+  646  git merge debbra4
+  647  git deblog
+  648  git branch
+  649  git diff ster debbra4
+  650  git merge debbra4
+  651  git checkout debbra4
+  652  git merge master
+  653  git diff master debbra4
+  654  git branch
+  655  git checkout master
+  656  git branch
+  657  git branch debbra5
+  658  git checkout debbra5
+  659  nano bratest
+  660  git commit -am "sadsa"
+  661  git diff master debbra5
+  662  git checkout debbra4
+  663  git merge debbra5
+  664  git deblog
+  665  git diff master debbra4
+  666  git diff master debbra5
+  667  git diff debbra4 debbra5
+  668  git diff master debbra4
+  669  git deblog
+  670  git checkout master
+  671  git branch
+  672  git merge --no-ff debbra5
+  673  git deblog
+  674  exit
+  675  cd /opt/deb/testproj/Deb-TestRepo
+  676  git status
+  677  git branch
+  678  git push origin master
+  679  git pull origin master
+  680  git push origin master
+  681  git push origin debbra1
+  682  git pull origin debbra1
+  683  git push origin debbra1
+  684  checkout debbra1
+  685  git checkout debbra1
+  686  git pull origin debbra1
+  687  git push origin debbra1
+  688  git status
+  689  git checkout master
+  690  git status
+  691  git push origin master
+  692  git status
+  693  git checkout debbra2
+  694  git pull origin debbra2
+  695  git push origin debbra2
+  696  git status
+  697  git checkout debbra3
+  698  clear
+  699  git rebash --help
+  700  git rebase --help
+  701  git branch
+  702  checkout master
+  703  git checkout master
+  704  git branch -d deb*
+  705  git branch -d debbra1
+  706  git branch -df debbra1
+  707  git branch -df debbra2
+  708  git branch -df debbra3
+  709  git branch -df debbra4
+  710  git branch -df debbra5
+  711  git branch -df debbra6
+  712  git branch
+  713  git status
+  714  git push
+  715  git fetch --help
+  716  git stash list
+  717  git status
+  718  ls
+  719  nano newfile
+  720  nano newfile.tst
+  721  nano newfile.txt
+  722  git status
+  723  exit
+  724  cd opt/deb/
+  725  cd opt/deb
+  726  cd opt
+  727  cd /opt
+  728  ls
+  729  cd deb
+  730  ls
+  731  cd testproj
+  732  cd Deb-testRepo
+  733  cd Deb-TestRepo
+  734  ls
+  735  git .rm .rf
+  736  git rm -rf
+  737  git status
+  738  git config --global color.ui true
+  739  git log --oneline --decorate --graph --all
+  740  # git config --global alias.deblog "log --oneline --decorate --graph --all"
+  741  git deblog
+  742  nano ~/.gitconfig
+  743  cd ..
+  744  ls
+  745  mkdir gitproj
+  746  git status
+  747  git init
+  748  git status
+  749  ls -la
+  750  rm .git
+  751  rmdir .git
+  752  rm -f .git
+  753  rm -rf .git
+  754  git status
+  755  cd gitproj
+  756  mv gitproj gitpro
+  757  mv /gitproj g/itpro
+  758  mv ./gitproj ./gitpro
+  759  cd ..
+  760  mv ./gitproj ./gitpro
+  761  ls
+  762  cd gitpro
+  763  ls -la
+  764  git init
+  765  git status
+  766  tgit remote
+  767  git remote
+  768  git remote add debhub "https://github.com/debayanraha/GitPro"
+  769  git remote
+  770  git push debhub master
+  771  git branch
+  772  git status
+  773  git commit
+  774  git push debhub master
+  775  git push
+  776  git debhub
+  777  git push debhub
+  778  git push debhub master
+  779  git push --set-upstream debhub master
+  780  ls
+  781  nano newf
+  782  ls
+  783  git add .
+  784  git commit
+  785  git push debhub master
+  786  git remote add debhub "https://github.com/debayanraha"
+  787  git remote -d debhub
+  788  git remote remove debhub
+  789  git remote add debhub "https://github.com/debayanraha"
+  790  git push debhub master
+  791  git remote
+  792  git remote remove debhub
+  793  git remote add debhub "https://github.com/debayanraha/"
+  794  git status
+  795  git push debhub master
+  796  git remote 
+  797  ls
+  798  git status
+  799  git push 
+  800  git push debhub
+  801  git push debhub master
+  802  git remote remove debhub
+  803  git remote add debhub "https://github.com/debayanraha/GitPro"
+  804  git push debhub master
+  805  git status
+  806  git status -a
+  807  git status -sa
+  808  git status -s
+  809  git status 
+  810  git branch -a
+  811  git status 
+  812  deblog
+  813  git deblog
+  814  exit
+  815  cd opt
+  816  cd /opt
+  817  ls
+  818  cd deb
+  819  ls
+  820  cd gitpro
+  821  git status
+  822  ls
+  823  nano newf
+  824  nano wip
+  825  ls
+  826  git status
+  827  git deblog
+  828  git stash --help
+  829  git stash 
+  830  git stash --help
+  831  git status
+  832  git stash list
+  833  nano newf
+  834  git status
+  835  git add 
+  836  git add .
+  837  git status
+  838  git commit -m "after stashing"
+  839  git status
+  840  nano newf
+  841  git stash --help
+  842  git stash apply
+  843  git status
+  844  nano newf
+  845  git status
+  846  git deblog
+  847  git status
+  848  git deblog
+  849  git stash list
+  850  git stash drop 
+  851  git status
+  852  git push
+  853  git push debhub master
+  854  git status
+  855  git deblog
+  856  git pull 
+  857  git pull debhub master
+  858  git status
+  859  git status -a
+  860  git status -v
+  861  clear
+  862  git stash list
+  863  git status
+  864  ls
+  865  nano newf
+  866  nano 3rd-stash
+  867  ls
+  868  git status
+  869  git stash "this is 3rd stash"
+  870  git stash -u save "this is 3rd stash"
+  871  git stash save "this is 3rd stash" -u
+  872  git stash lis
+  873  git status
+  874  git stash -u
+  875  git stash list
+  876  git stash drop
+  877  git stash list
+  878  ls
+  879  git status
+  880  git stash apply
+  881  git status
+  882  git stash drop
+  883  git status
+  884  git checkout 
+  885  git status
+  886  git status newf
+  887  ls
+  888  nano newf
+  889  git checkout -- newf
+  890  nano newf
+  891  git status
+  892  nano newf
+  893  git status
+  894  nano 3rd-stash
+  895  git status
+  896  git stash -u save "this is 3rd-stash"
+  897  git status
+  898  git stash save -u "this is 3rd-stash"
+  899  git status
+  900  nano newf
+  901  nano 4th-stash
+  902  git status
+  903  git stash save -u "this is 4th-stash"
+  904  git status
+  905  git stash list
+  906  git stash show
+  907  git stash show stash@{1}
+  908  git stash show --help
+  909  git status
+  910  git stash apply stash@{1}
+  911  git status
+  912  git stash list
+  913  cd /opt/deb/gitpro
+  914  git status
+  915  git stash
+  916  git stash list
+  917  git stash drop
+  918  git stash list
+  919  git stash apply
+  920  git status
+  921  nano newf
+  922  git stash list
+  923  git stash apply stash apply stash@{1}
+  924  git stash apply stash@{1}
+  925  nano newf
+  926  git stash apply stash@{0}
+  927  git status
+  928  git add 
+  929  git add .
+  930  git commit -m "2 stash saved"
+  931  git deblog
+  932  git push
+  933  git push debhub master
+  934  git status
+  935  git stash apply stash@{1}
+  936  git status
+  937  git stash drop
+  938  git stash clear
+  939  git stash list
+  940  git deblog
+  941  ls
+  942  clear
+  943  ls
+  944  nano newf
+  945  nano wip
+  946  nano bra-stash
+  947  git status
+  948  git add newf
+  949  git status
+  950  git stash --help
+  951  git stash branch newbra
+  952  git status
+  953  git stash branch newbra
+  954  git stash --help
+  955  git stash 
+  956  git stash list
+  957  git status
+  958  git stash apply
+  959  git stash drop
+  960  git stash list
+  961  git stash -u
+  962  git status
+  963  git stash branch newbra
+  964  git stash list
+  965  git status
+  966  git commit -am "new branch commit"
+  967  git status
+  968  git add .
+  969  git commit -m "new branch new file commit"
+  970  git status
+  971  git deblog
+  972  git checkout master
+  973  git merge --no-ff newbra
+  974  git status
+  975  git deblog
+  976  git status
+  977  git push debhub master
+  978  git branch
+  979  git branch -d newbra
+  980  git branch
+  981  git deblog
+  982  clear
+  983  history
+  984  clear
+  985  git pull 
+  986  git pull debhub master
+  987  git tag --help
+  988  git status
+  989  git status -b
+  990  git status -l
+  991  git status --long
+  992  git remote
+  993  git remote -v
+  994  git fetch debhub master
+  995  git status
+  996  git deblog
+  997  clear
+  998  git tag --list
+  999  git deblog
+ 1000  git tag debtag
+ 1001  git deblog
+ 1002  git tag --list
+ 1003  git tag show
+ 1004  git show debtag
+ 1005  nano new
+ 1006  git commit -am "after tagging"
+ 1007  git status
+ 1008  git deblog
+ 1009  git tag --list
+ 1010  git show debtag
+ 1011  git tag drop show
+ 1012  git tag --list
+ 1013  git tag --help
+ 1014  git tag -d drop
+ 1015  git tag -d show
+ 1016  git deblog
+ 1017  clear
+ 1018  git tag --list
+ 1019  git deblog
+ 1020  git tag -a release-1
+ 1021  git tag --list
+ 1022  git deblog
+ 1023  git tag --help
+ 1024  git tag -a release-2 "comment"
+ 1025  git tag --list
+ 1026  git tag -a 
+ 1027  clear
+ 1028  git deblog
+ 1029  git tag -a release-2 29be634
+ 1030  git tag --list
+ 1031  git deblog
+ 1032  git tag debtag2 cbe28a7
+ 1033  git deblog
+ 1034  clear
+ 1035  git status
+ 1036  git tag --list
+ 1037  git pull debhub master
+ 1038  git tag --list
+ 1039  git push debhub master
+ 1040  git status
+ 1041  git tag --list
+ 1042  git pull debhub debtag
+ 1043  git push debhub debtag
+ 1044  git pull debhub tag1
+ 1045  git pull debhub master --tags
+ 1046  git push debhub master --tags
+ 1047  git tag --list
+ 1048  git tag -d Tag1
+ 1049  git tag --list
+ 1050  git push debhub master --tags
+ 1051  history
+ 1052  git pull debhub master --tags
+ 1053  git tag --list
+ 1054  cd /opt/deb/gitpro
+ 1055  git status
+ 1056  git tag --list
+ 1057  git push debhub :Tag1
+ 1058  git tag --list
+ 1059  git tag -d Tag1
+ 1060  git tag --list
+ 1061  git push debhub master
+ 1062  clear
+ 1063  ls
+ 1064  cd /
+ 1065  cd home
+ 1066  ls
+ 1067  cd debayanraha
+ 1068  ls
+ 1069  cd Desktop
+ 1070  ls
+ 1071  mv * /opt/p4merge
+ 1072  ls
+ 1073  tar zxvf p4v.tgz
+ 1074  ls
+ 1075  cd /opt
+ 1076  ls
+ 1077  cd p4merge
+ 1078  ls -la
+ 1079  tar zxvf p4merge.tgz
+ 1080  ls -la
+ 1081  rm -rf p4merge
+ 1082  ls -la
+ 1083  clear
+ 1084  cd ~/
+ 1085  ls
+ 1086  cd /home/debayanraha/Downloads
+ 1087  ls
+ 1088  mv * /opt
+ 1089  cd /opt
+ 1090  ls
+ 1091  tar zxvf p4v.tgz
+ 1092  ls
+ 1093  ls -al
+ 1094  rm -rf p4v.tgz
+ 1095  ls -al
+ 1096  mv ./p4v-2019.1.1830398 ./p4merge
+ 1097  ls -al
+ 1098  clear
+ 1099  ln --help
+ 1100  clear
+ 1101  git config --global diff.tool
+ 1102  git config --global diff.tool p4merge
+ 1103  git config --global diff.tool
+ 1104  ls
+ 1105  cd p4merge
+ 1106  ls
+ 1107  cd bin
+ 1108  ls
+ 1109  git config --global difftool.p4merge.path "/opt/p4merge/bin/p4merge"
+ 1110  git config --global mergetool.p4merge
+ 1111  nano ./gitconfig
+ 1112  nano ~/gitconfig
+ 1113  nano /.gitconfig
+ 1114  nano ~/.gitconfig
+ 1115  git config --global merge.tool p4merge
+ 1116  git config --global mergetool.p4merge.path "/opt/p4merge/bin/p4merge"
+ 1117  git config --global mergetool.promt false
+ 1118  git config --global
+ 1119  git config --global --lest
+ 1120  git config --global --list
+ 1121  git difftool
+ 1122  cd /opt/deb/gitpro
+ 1123  ls
+ 1124  clear
+ 1125  git status
+ 1126  git config --global --list
+ 1127  git difftool
+ 1128  git deblog
+ 1129  p4merge
+ 1130  git mergetool
+ 1131  git difftooltool
+ 1132  git difftool
+ 1133  nano ~/.gitconfig
+ 1134  ls
+ 1135  edit newf
+ 1136  git status
+ 1137  ls
+ 1138  nano newf
+ 1139  git status
+ 1140  git diff
+ 1141  git difftool
+ 1142  history
+ 1143  history > hisfile
